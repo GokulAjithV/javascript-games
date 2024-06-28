@@ -1,5 +1,7 @@
 const prompt = require("prompt-sync")();
 
+console.log("Welcome to random number guesser game!!!");
+
 const randomNumber = Math.round(Math.random() * 100);
 
 let guesses = 0;
