@@ -8,7 +8,7 @@ let losses = 0;
 
 const choices = ["stone", "paper", "scissors"];
 
-const noOfGames = Number(prompt("Enter how many games you want to play : "));
+const noOfGames = parseInt(prompt("Enter how many games you want to play : "));
 
 for(let i = 1; i <= noOfGames; i++){
 
